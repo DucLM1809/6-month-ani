@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import confetti from 'canvas-confetti'
-import { motion } from 'framer-motion'
 
 // Use the cover image as the card back
 import cardBackPattern from '../assets/starry_night.png'
@@ -19,50 +18,28 @@ const patterns = [
   irisesPattern
 ]
 
-// Import images
-import img1 from '../assets/4E77AA31-3D13-4176-B0C9-BE1BD5975ADA.JPG'
-import img2 from '../assets/9e0465a2620dc904cc612aabbedfe2e1.JPEG'
-import img3 from '../assets/14754E1F-4691-4986-8518-B798E5D05D18.JPG'
-import img4 from '../assets/AC188FC0-1992-404C-8840-6AD1E8C1D9FE.JPG'
-import img5 from '../assets/att.Xsk9DQM5ke6kbCEcd-6abc8MbWWyIunzgTTzVAYjfm8.JPG'
-import img6 from '../assets/att.YCLRtb_FZ0XIWu8qHedx2YIbChaKWqcSZWZmYupZEv0.JPG'
-import img7 from '../assets/IMG_0294.png'
-import img8 from '../assets/IMG_2492.JPG'
-import img9 from '../assets/IMG_2706.JPG'
-import img10 from '../assets/IMG_2708.JPG'
-import img11 from '../assets/IMG_4227.JPG'
-import img12 from '../assets/IMG_4229.JPG'
-import img13 from '../assets/IMG_4943.JPG'
-import img14 from '../assets/IMG_0305.png'
-import img15 from '../assets/IMG_0325.png'
-import img16 from '../assets/IMG_0345.png'
-import img17 from '../assets/IMG_0391.png'
-import img18 from '../assets/IMG_0680.png'
-import img19 from '../assets/IMG_9544.png'
-import img20 from '../assets/IMG_9545.png'
-
 // Duplicate for filler
 const images = [
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-  img15,
-  img16,
-  img17,
-  img18,
-  img19,
-  img20
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/14754E1F-4691-4986-8518-B798E5D05D18.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/4E77AA31-3D13-4176-B0C9-BE1BD5975ADA.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/9e0465a2620dc904cc612aabbedfe2e1.JPEG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/AC188FC0-1992-404C-8840-6AD1E8C1D9FE.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/att.Xsk9DQM5ke6kbCEcd-6abc8MbWWyIunzgTTzVAYjfm8.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/att.YCLRtb_FZ0XIWu8qHedx2YIbChaKWqcSZWZmYupZEv0.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0294.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0305.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0325.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0345.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0391.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0680.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2492.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2706.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2708.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4227.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4229.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4943.JPG',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_9544.png',
+  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_9545.png'
 ]
 
 const Gallery = () => {

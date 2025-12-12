@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import Gallery from './components/Gallery'
 import ScratchReveal from './components/ScratchReveal'
 // eslint-disable-next-line no-unused-vars
@@ -17,7 +17,11 @@ function App() {
 
   return (
     <div className='app-container'>
-      <audio ref={audioRef} src='/background-music.mp3' loop />
+      <audio
+        ref={audioRef}
+        src='https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/uplifting-wedding-theme-with-piano-arpeggios-free-music-397372.mp3'
+        loop
+      />
 
       <Gallery />
       <ScratchReveal />
