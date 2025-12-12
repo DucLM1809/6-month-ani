@@ -19,7 +19,7 @@ function App() {
     <div className='app-container'>
       <audio
         ref={audioRef}
-        src='https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/uplifting-wedding-theme-with-piano-arpeggios-free-music-397372.mp3'
+        src='https://d33r8ynrxoz7kg.cloudfront.net/uplifting-wedding-theme-with-piano-arpeggios-free-music-397372.mp3'
         loop
       />
 
