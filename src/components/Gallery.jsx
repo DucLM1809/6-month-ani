@@ -8,6 +8,7 @@ import cafePattern from '../assets/vangogh_cafe.png'
 import almondPattern from '../assets/vangogh_almond.png'
 import wheatPattern from '../assets/vangogh_wheat.png'
 import irisesPattern from '../assets/vangogh_irises.png'
+import Letter from './Letter'
 
 const patterns = [
   cardBackPattern,
@@ -94,7 +95,7 @@ const Gallery = () => {
           <span key={p.id} style={p.style} />
         ))}
       </div>
-      <h2 className='gallery-title'>Vợ iu thiệc là xinh đẹp 🥰</h2>
+      <h2 className='gallery-title'>Our Memories</h2>
 
       <div className='masonry-grid'>
         {images.map((src, index) => {
@@ -112,7 +113,7 @@ const Gallery = () => {
                     className='card-pattern'
                     style={{ backgroundImage: `url(${cardPatterns[index]})` }}
                   ></div>
-                  <span className='click-hint'>Bấm dô để xiêm</span>
+                  <span className='click-hint'>Click to Flip</span>
                 </div>
                 {/* Back (Image - Relative/Flow) */}
                 <div className='flip-card-back'>
@@ -123,6 +124,8 @@ const Gallery = () => {
           )
         })}
       </div>
+
+      <Letter />
 
       <style>{`
         .gallery-container {
