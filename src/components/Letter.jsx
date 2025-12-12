@@ -125,6 +125,21 @@ const Letter = () => {
           background-image: linear-gradient(#e0d8c0 1px, transparent 1px);
           background-size: 100% 2rem;
           line-height: 2rem;
+          max-height: 80vh;
+          overflow-y: auto;
+          scrollbar-width: thin;
+          scrollbar-color: #8a6a4b #fffdf0;
+        }
+        .letter-content::-webkit-scrollbar {
+          width: 8px;
+        }
+        .letter-content::-webkit-scrollbar-track {
+          background: #fffdf0;
+        }
+        .letter-content::-webkit-scrollbar-thumb {
+          background-color: #8a6a4b;
+          border-radius: 4px;
+          border: 2px solid #fffdf0;
         }
         .close-btn {
           position: absolute;
