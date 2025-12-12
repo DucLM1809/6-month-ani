@@ -21,26 +21,26 @@ const patterns = [
 
 // Duplicate for filler
 const images = [
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/14754E1F-4691-4986-8518-B798E5D05D18.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/4E77AA31-3D13-4176-B0C9-BE1BD5975ADA.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/9e0465a2620dc904cc612aabbedfe2e1.JPEG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/AC188FC0-1992-404C-8840-6AD1E8C1D9FE.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/att.Xsk9DQM5ke6kbCEcd-6abc8MbWWyIunzgTTzVAYjfm8.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/att.YCLRtb_FZ0XIWu8qHedx2YIbChaKWqcSZWZmYupZEv0.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0294.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0305.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0325.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0345.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0391.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_0680.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2492.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2706.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_2708.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4227.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4229.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_4943.JPG',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_9544.png',
-  'https://6-months-anniversary.s3.ap-southeast-2.amazonaws.com/IMG_9545.png'
+  'https://d33r8ynrxoz7kg.cloudfront.net/14754E1F-4691-4986-8518-B798E5D05D18.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/4E77AA31-3D13-4176-B0C9-BE1BD5975ADA.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/9e0465a2620dc904cc612aabbedfe2e1.JPEG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/AC188FC0-1992-404C-8840-6AD1E8C1D9FE.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/att.Xsk9DQM5ke6kbCEcd-6abc8MbWWyIunzgTTzVAYjfm8.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/att.YCLRtb_FZ0XIWu8qHedx2YIbChaKWqcSZWZmYupZEv0.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0294.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0305.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0325.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0345.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0391.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_0680.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_2492.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_2706.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_2708.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_4227.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_4229.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_4943.JPG',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_9544.png',
+  'https://d33r8ynrxoz7kg.cloudfront.net/IMG_9545.png'
 ]
 
 const Gallery = () => {
